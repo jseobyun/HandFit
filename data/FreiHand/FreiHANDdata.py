@@ -21,8 +21,6 @@ class FreiHANDdataset(Dataset):
 
         self._load()
 
-
-
     def __getitem__(self, index):
         param = np.asarray(self.mano[index])
         scale = self.scale[index]

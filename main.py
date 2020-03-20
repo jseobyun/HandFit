@@ -13,8 +13,6 @@ from utils.geometric import orthographic_proj_withz as project
 from config import cfg
 
 mano_layer = ManoLayer(center_idx = 0, use_pca = True, ncomps = cfg.ncomps, flat_hand_mean = True).cuda()
-# J_mask = torch.from_numpy(np.load(os.path.join(cfg.root_dir, 'joint_mask_rearrange.npy'))).reshape(-1)
-# mask2joints = np.load(os.path.join(cfg.root_dir,'mask2joints.npy'), allow_pickle = True)
 
 db = RHDdataset(root=os.path.join(cfg.data_loc, cfg.dataset), mode='train')
 db_loader = DataLoader(db, batch_size = 1, shuffle = False)
