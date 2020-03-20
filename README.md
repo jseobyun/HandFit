@@ -26,13 +26,13 @@ Processed RHD dataset can be found in [here](https://drive.google.com/open?id=1f
 
 ## Installation
 
-MANO : https://github.com/hassony2/manopth
+[MANO](https://github.com/hassony2/manopth)
 
-neural-renderer-pytorch : https://github.com/daniilidis-group/neural_renderer
+[neural-renderer-pytorch](https://github.com/daniilidis-group/neural_renderer)
 
-pyquaternion : https://github.com/KieranWynn/pyquaternion
+[pyquaternion](https://github.com/KieranWynn/pyquaternion)
 
-chumpy : https://github.com/mattloper/chumpy
+[chumpy](https://github.com/mattloper/chumpy)
 
 opencv
 
