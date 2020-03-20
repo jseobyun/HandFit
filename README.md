@@ -1,6 +1,28 @@
 Hand fitting (MANO)
 ======
-place holder
+MANO fitting example codes on RHD dataset
+
+Processed RHD dataset can be found in [here](https://drive.google.com/open?id=1f5QMCwmrIfH5j7iH73jwjgbqhBn8J174)
+
+## Data preparation
+
+    ${DATA_LOC}
+    |-- training
+    |   |-- color
+    |   |-- depth
+    |   |-- mask
+    |   |-- total_train_images_wrist.npy
+    |   |-- total_train_joints_wrist.npy
+    |   |-- total_train_masks_wrist.npy    
+    |
+    |-- evaluation
+        |-- color
+        |-- depth
+        |-- mask
+        |-- total_eval_images_wrist.npy
+        |-- total_eval_joints_wrist.npy
+        |-- total_eval_masks_wrist.npy    
+
 
 ## Installation
 
