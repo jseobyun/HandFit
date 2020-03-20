@@ -2,7 +2,7 @@ Hand fitting (MANO)
 ======
 place holder
 
-##Installation
+## Installation
 
 MANO : https://github.com/hassony2/manopth
 
@@ -14,7 +14,7 @@ chumpy : https://github.com/mattloper/chumpy
 
 opencv
 
-##Note
+## Note
 
 Put these function to manolayer.py
 
@@ -69,7 +69,7 @@ Comment these lines in manolayer.py
     # th_verts = th_verts * 1000
     # th_jtr = th_jtr * 1000
 
-##Usage
+## Usage
 
     python main.py
 Visualization of fitting process is saved in output/vis 
