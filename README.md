@@ -3,8 +3,6 @@ Hand fitting (MANO)
 MANO fitting example codes on RHD dataset
 ![image](example.png)
 
-Processed RHD dataset can be found in [here](https://drive.google.com/open?id=1f5QMCwmrIfH5j7iH73jwjgbqhBn8J174)
-
 ## Data preparation
 
     ${DATA_LOC}
